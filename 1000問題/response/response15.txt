@@ -1,0 +1,102 @@
+1. <companyname>最新EPS預估值是多少？（個股分析）
+2. 法人對於<companyname>近期買賣超數據是什麼？（個股資料查詢）
+3. 我可以從<companyname>的技術面圖表看出什麼？（學環請教）
+4. 票近期的PE比率走勢呈現什麼狀況？（個股資料查詢）
+5. <companyname>與<othercompanyname>的股息率哪個更優？（多股比較）
+6. <companyname>現在是高估還是低估的狀態？（個股分析）
+7. 請問<companyname>的盤後交易量趨勢如何？（個股資料查詢）
+8. 新興市場的投資機會有哪些？（總經與其他金融工具）
+9. 從虛擬貨幣市場中，<companyname>的相關概念股是哪些？（產業）
+10. 我該如何評估<companyname>的市場風險？（學習請教）
+11. 與<othercompanyname>相比，<companyname>短期內哪隻更適合作為沖銷操作？（多股比較）
+12. 如何評估<companyname>的經營團隊和策略？（個股分析）
+13. 我應該關注台指期交易量的哪些變化？（大盤）
+14. 分析<companyname>的財務狀況，哪些指標最為重要？（學習請教）
+15. 推薦幾支適合高股息投資策略的股票？（推薦軟條件）
+16. 在<companyname>的籌碼面分布中，自營商的角色扮演了哪些功能？（個股資料查詢）
+17. 請列出目前負債比率最低的三隻台灣股票。（選股硬條件）
+18. <companyname>與<othercompanyname>，我該如何籌碼分析兩者選擇購買時機？（多股比較、實務）
+19. <companyname>技術面看漲信號是哪些？（學習請教）
+20. 轉債與<companyname>的投資比較，哪個風險收益比更高？（多股比較、總經與其他金融工具）
+21. 实務上買<companyname>超過一定金額需要注意哪些稅法規定？（實務）
+22. <companyname>在全球供應鏈的定位與潛力如何？（產業）
+23. <companyname>與<othercompanyname>現金流量比較，哪個更具投資安全邊際？（多股比較）
+24. <companyname>的近期庫藏股動態是怎樣的？（個股資料查詢）
+25. 如何評估<companyname>在新能源產業中的成長潛力？（產業、個股分析）
+26. <companyname>與<othercompanyname>的最新營收比較，誰的成長性更好？（多股比較）
+27. 我應該關注加權指數的哪些變數？（學習請教、大盤）
+28. 對於半導體產業，<companyname>的角色變化預測是什麼？（預測、產業）
+29. 短線交易中，<companyname>目前的波段操作策略是什麼？（實務、個股分析）
+30. 分析<companyname>的財務報表，可以得出什麼結論？（個股分析）
+31. <companyname>進行大額交易需要什麼策略？（實務）
+32. 如何看待<companyname>目前市場的籌碼穩定度？（個股資料查詢） 
+33. 請問短線內，<companyname>能否抗跌？（個股分析、預測）
+34. <companyname>在下一財季的盈利預測是否看好？（預測）
+35. 如何利用<companyname>的公開資訊進行有效投資決定？（學習請教）
+36. 測算<companyname>的資產負債表，其中有哪些隱藏價值？（個股分析）
+37. <companyname>的市值與<othercompanyname>相比處於何種位置？（多股比較）
+38. 分析<companyname>與<othercompanyname>的資金流向，哪個更值得投資？（多股比較、個股資料查詢）
+39. 請問<companyname>的最新財報顯示了什麼樣的獲利狀況？（個股資料查詢）
+40. 評估<companyname>的股價跟業績是否有正相關？（個股分析）
+41. 了解<companyname>的營運資金週轉如何？（個股資料查詢）
+42. <companyname>與<othecompanyname>哪一支更適合定期定額投資？（多股比較）
+43. <companyname>未來的營運策略會如何影響當期股價？（預測）
+44. 針對<companyname>的股票買賣，需要留意哪些交易限制？（實務）
+45. 如何運用<companyname>的投資報告來提高投資獲利？（學習請教）
+46. 在分析<companyname>的資產配置時，重要的因素有哪些？（個股分析）
+47. <companyname>的即時股價與週轉率差異性反映了什麼？（個股資料查詢）
+48. 最近新聞提到<companyname>，請問現階段投資的策略應該怎麼擬定？（個股分析、實務）
+49. 請問<companyname>的實際股本與股利政策是什麼？（個股資料查詢）
+50. 科技戰，<companyname>在這波中的表現如何？（產業、個股分析）
+
+
+1. Ethereum的移動平均線是否顯示牛市趨勢？（技術指標、預測、總經與其他金融工具）
+2. Bitcoin的OBV指標暗示主力進出狀況如何？（技術指標、總經與其他金融工具）
+3. Ripple的ATR顯示市場波動性增加了嗎？（技術指標、字典查詢、總經與其他金融工具）
+4. Cardano的Stochastic RSI是否進入超買區間？（技術指標、學習請教、總經與其他金融工具）
+5. Litecoin上一交易日的成交量對當前趨勢有何影響？（技術指標、總經與其他金融工具）
+6. 使用Heikin Ashi蠟燭圖進行Dash coin的短線分析，可以發現什麼訊號？（技術指標、學習請教、總經與其他金融工具）
+7. 如何利用Fibonacci回撤層做出更精準的Bitcoin Cash交易決策？（技術指標、學習請教、總經與其他金融工具）
+8. Polkadot目前處於哪個Elliott波段？（技術指標、預測、總經與其他金融工具）
+9. Chainlink的DMI和ADX指標聯合使用是否突顯趨勢轉折點？（技術指標、字典查詢、總經與其他金融工具）
+10. Stellar的Volume Profile可見重要支撐和壓力區域在哪裡？（技術指標、總經與其他金融工具）
+11. Tezos的KDJ指數預示近期將有反轉嗎？（技術指標、預測、總經與其他金融工具）
+12. 通過Comparative Relative Strength對比分析Monero和其他加密貨幣的表現如何？（技術指標、多股比較、總經與其他金融工具）
+13. Cosmos的CCI指標是近期入場的信號嗎？（技術指標、預測、總經與其他金融工具）
+14. 使用Gann角度進行Tron長線趨勢分析應注意哪些要素？（技術指標、學習請教、總經與其他金融工具）
+15. VeChain的市場情緒指數（MSI）顯示當前投資者情緒如何？（技術指標、字典查詢、總經與其他金融工具）
+16. 如何使用Money Flow Index（MFI）來評估Zcash的購買時機？（技術指標、字典查詢、總經與其他金融工具）
+17. Tether的價格行動是否有價格修復的跡象？（技術指標、預測、總經與其他金融工具）
+18. Binance Coin的Parabolic SAR選擇何時進出？（技術指標、實務、總經與其他金融工具）
+19. 如何運用平均真實範圍（ATR）來衡量EOS的市場波動？（技術指標、學習請教、總經與其他金融工具）
+20. Neo的Donchian Channel指示當前趨勢強度如何？（技術指標、總經與其他金融工具）
+21. 對於Dogecoin，Williams %R指標目前何種位置，突顯何種趨勢？（技術指標、預測、總經與其他金融工具）
+22. 在熊市中，如何應用Ichimoku Kinko Hyo分析Decentraland的抵抗和支撐？（技術指標、學習請教、總經與其他金融工具）
+23. Aave的成交量變化預示著何種走勢可能？（技術指標、預測、總經與其他金融工具）
+24. 透過Envelopes指標確定Algorand價格的正常波動範圍？（技術指標、實務、總經與其他金融工具）
+25. 請問如何依據Pivot Point分析Uniswap短期內的關鍵價位？（技術指標、實務、總經與其他金融工具）
+26. ”利用Volume Weighted Average Price（VWAP）來增進對Solana交易的理解？”（技術指標、學習請教、總經與其他金融工具）
+27. 研究Bitcoin SV是否接近支撐線，並判斷能否看好反彈？（技術指標、預測、總經與其他金融工具）
+28. 根據Price Oscillator了解Maker長線和短線的價格變動趨勢？（技術指標、多股比較、總經與其他金融工具）
+29. Filecoin的Force Index能否指出當前的市場驅力？（技術指標、字典查詢、總經與其他金融工具）
+30. 如何用Tick Volume分析的方式來確定THETA的活躍程度？（技術指標、實務、總經與其他金融工具）
+31. 運用Detrended Price Oscillator（DPO）確定BitTorrent是在趨勢還是節奏市場？（技術指標、總經與其他金融工具）
+32. 在多種指標中，哪些對分析Huobi Token的價格走勢最有效？（技術指標、多股比較、總經與其他金融工具）
+33. 如何在SushiSwap的價格振盪中運用Chaikin Money Flow？（技術指標、實務、總經與其他金融工具）
+34. 通過Normalized Average True Range（NATR）預測Waves的風險水平？（技術指標、預測、總經與其他金融工具）
+35. 指數平滑異同平均（MACD）是否顯示Ontology進入賣出區域？（技術指標、學習請教、總經與其他金融工具）
+36. 如何通過Horizen的Total Power Indicator來判斷趨勢變化？（技術指標、字典查詢、總經與其他金融工具）
+37. 幫助我了解Kava.io的Price Rate of Change（ROC）指標在告訴我些什麼？（技術指標、學習請教、總經與其他金融工具）
+38. 鑒於Quant的Directional Movement Index（DMI）是否應該重新考慮持倉？（技術指標、實務、總經與其他金融工具）
+39. 如何使用Alpha Finance Lab的Mass Index來識別即將到來的價格反轉？（技術指標、預測、總經與其他金融工具）
+40. 數據顯示Curve DAO Token的Volatility Index是上攻或是下挫的標誌？（技術指標、總經與其他金融工具）
+41. 分析REN的Ultimate Oscillator與市場趨勢之間的相關性？（技術指標、多股比較、總經與其他金融工具）
+42. 如何利用Weighted Close分析FTX Token的綜合收盤價？（技術指標、學習請教、總經與其他金融工具）
+43. 使用RSI Stochastics分析Dragonchain的買賣時機？（技術指標、實務、總經與其他金融工具）
+44. 幫我理解BakerySwap的Negative Volume Index（NVI）在暗示什麼？（技術指標、字典查詢、總經與其他金融工具）
+45. 如何解讀1inch的Disparity Index在多頭和空頭市場中的變化？（技術指標、預測、總經與其他金融工具）
+46. 通過使用Relative Volatility Index（RVI）分析Balancer的市場情緒波動？（技術指標、總經與其他金融工具）
+47. Chiliz的Money Flow Index（MFI）與價格波動之間的關系如何？（技術指標、學習請教、總經與其他金融工具）
+48. 如何應用Bounce Strength Indicator（BSI）為Hedera Hashgraph的貿易找出合適入市點？（技術指標、實務、總經與其他金融工具）
+49. 正在考慮的Decred的Price and Volume Trend（PVT）分析結果指導我們關於買入時機的哪些資訊？（技術指標、預測、總經與其他金融工具）
+50. 透過Pivot Points Standard來估計Arweave的關鍵交易範圍？（技術指標、總經與其他金融工具）

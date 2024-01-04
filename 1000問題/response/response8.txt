@@ -1,0 +1,35 @@
+1. 我想短線操作，可以給我一些潛力股的選擇嗎？（推薦軟條件）
+2. 有哪些股票在今天的市場中特別活躍，適合當日交易？（推薦軟條件）
+3. 我對當沖很有興趣，您能否推薦一些具有強勁反彈潛力的股票？（推薦軟條件）
+4. 今天的哪些趨勢股適合進行快速交易？（推薦軟條件）
+5. 你能幫忙分析一下全球經濟的變化如何對<companyname>構成風險或機會嗎？（個股分析、總經與其他金融工具）
+6. 最近的貿易協議對<companyname>的財務前景有何影響？（個股分析、總經與其他金融工具）
+7. 看看當前的通貨膨脹趨勢，<companyname>是否會受到影響？（個股分析、總經與其他金融工具）
+8. 給我分析一下全球政治動蕩對<companyname>營運的可能衝擊。（個股分析、總經與其他金融工具）
+9. <companyname>是否可以抵禦目前來自外部經濟的負面壓力？（個股分析、總經與其他金融工具）
+10. 請問<companyname>的業績有多大程度會受宏觀經濟因素影響？（個股分析、總經與其他金融工具）
+
+11. 如何評估<companyname>在不同宏觀經濟環境下的績效？（個股分析、總經與其他金融工具）
+12. 我想比較<companyname>、<companyname>及<companyname>這三者的財務健康性，你能幫我分析嗎？（個股分析、多股比較）
+13. 從<companyname>、<companyname>與<companyname>這三隻股票的財報中，哪一家的財務指標最具吸引力？（多股比較）
+14. 像<companyname>這樣的龍頭股與它的後起之秀<companyname>，哪一個更適合長期投資？（多股比較）
+15. 我想知道從財務和營運的角度來看，<companyname>、<companyname>和<companyname>哪個公司最穩健？（多股比較）
+16. 比較<companyname>、<companyname>及<companyname>，從市盈率和市凈率的角度看哪個更值得投資？（多股比較、選股硬條件）
+17. 三家科技股<companyname>、<companyname>和<companyname>，基於未來前景哪家值得買入？（多股比較、預測）
+18. 能否分析比較<companyname>、<companyname>與<companyname>的成長潛力？（多股比較）
+19. 我想知道<companyname>、<companyname>和<companyname>的任何一家有沒有可能成為下一個市場領導者？（多股比較、預測）
+20. 能從現金流量觀點進行比較分析<companyname>、<companyname>和<companyname>嗎？（多股比較、個股資料查詢）
+
+21. 我想從市場份額的角度分析<companyname>、<companyname>和<companyname>的競爭力，你怎麼看？（多股比較）
+22. 以下哪家公司你認為短期內增長速度會最快：<companyname>、<companyname>還是<companyname>？（多股比較、預測）
+23. <companyname>與<companyname>，誰的研發投入對業績提升貢獻更大？（多股比較、個股分析）
+24. 給我分析一下<companyname>、<companyname>和<companyname>的股東權益回報率，哪家最有投資潛力？（多股比較、個股資料查詢）
+25. 如果我想在<companyname>、<companyname>和<companyname>中選擇一家進行損益兩平的投資，該怎麼選？（多股比較）
+26. 在目前的經濟環境下，你建議投資哪種類型的當沖股票？（推薦軟條件）
+27. 關於<companyname>，當日交易有哪些要點可以分享？（個股分析、學習請教）
+28. 針對當沖者，你能給出哪些<companyname>當日交易的建議？（個股分析、學習請教）
+29. 短期內有哪些建議買入的當沖股票？最好是<companyname>這類型的。（推薦軟條件）
+30. 我想當沖<companyname>，有沒有什麼條件是我在操作前應該要特別注意的？（個股分析、學習請教）
+
+31. 针对目前全球市場波动大的情况，<companyname>面临怎样的机遇和挑战？（個股分析、總經與其他金融工具）
+32. 近期货币政策的变化对<companyname>有何种影响？会不会影响我们的投资决策？（個股分析、總經與其他金融工具）
