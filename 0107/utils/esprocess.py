@@ -3,6 +3,7 @@ from tqdm import tqdm
 from .XD import *
 import numpy as np
 import eventstudy as es
+import concurrent.futures
 
 class EventStudy:
     
@@ -76,7 +77,7 @@ class EventStudy:
 
             # Store result 
             self.tick_event_dict[f'{tick}'] = event_date
-            
+        
             
     def perform_es(self, stock_filter_list = [], 
                   event_window = (0,+10), estimation_size = 30, 
@@ -112,6 +113,52 @@ class EventStudy:
                 
         return self.final_res
         
+        
+    def perform_es_worker(self, tick, stock_filter_list, event_window, estimation_size, buffer_size):
+        if tick in stock_filter_list:
+            try:
+                es.Single.import_returns(path=f'../1230/df/returns_{tick}.csv', date_format='%Y-%m-%d')
+                es.Single.import_FamaFrench(path=f'../1230/df/fama_{tick}.csv', date_format='%Y-%m-%d')
+                for ed in self.tick_event_dict[tick]:
+                    # Define your Model Here ###################
+                    event = es.Single.FamaFrench_3factor(
+                        security_ticker=str(tick),
+                        event_date=np.datetime64(str(ed)),
+                        event_window=event_window,
+                        estimation_size=estimation_size,  # 注意這個
+                        buffer_size=buffer_size,
+                        keep_model=False
+                    )
+                    #############################################
+                    tick_res = es_res_tick_process(event=event, ed=ed, tick=tick)
+                    self.final_res = pd.concat([self.final_res, tick_res], ignore_index=True)
+
+            except Exception as e:
+                print(f"Error processing {tick} - {ed}: {e}")
+
+
+
+    def perform_es_thread(self, stock_filter_list=[], event_window=(0, +10), estimation_size=30, buffer_size=30):
+        print('\n')
+        print('Processing Perform ES : ')
+        err = []
+
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            futures = [executor.submit(self.perform_es_worker, tick, stock_filter_list, event_window, estimation_size, buffer_size)
+                    for tick in self.tick_event_dict]
+
+            for future in concurrent.futures.as_completed(futures):
+                try:
+                    future.result()
+                except Exception as e:
+                    print(f"Error in thread: {e}")
+                    err.append(str(e))
+
+        return self.final_res
+
+
+
+    
     def process_final_res(self):
         self.final_res = self.final_res.rename(columns={'P-value':'p', 'T-stat':'t'})
         self.final_res['evnet_window'] = self.final_res['evnet_window'].astype(str).astype(int)

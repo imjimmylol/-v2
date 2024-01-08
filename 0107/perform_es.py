@@ -4,7 +4,7 @@ import pandas as pd
 
 PARAMS = {
     
-    'stock_filter_list':[],
+    'stock_filter_list':['1101', '1102'],
     'event_window':(0,+10),
     'estimation_size':30,
     'buffer_size':30,
@@ -29,7 +29,10 @@ if __name__ == "__main__":
 
     es_engine = esprocess.EventStudy(df)
     es_engine.create_events()
-    es_engine.perform_es(stock_filter_list=['1101', '1102', '1103'])
+    # es_engine.perform_es() 
+    es_engine.perform_es(stock_filter_list=PARAMS['stock_filter_list'])
+    # es_engine.perform_es_thread(stock_filter_list=PARAMS['stock_filter_list'])
+    # es_engine.perform_es_thread()
     res = es_engine.process_final_res()
     
     print(res)
