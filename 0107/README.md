@@ -4,6 +4,7 @@ conda env create -f /path/to/environment.yml
 ```
 
 # Create your own event
+see sample code in ```test.ipynb```
 ```
 class MyEventStudy(esprocess.EventStudy):
     def __init__(self, df):
@@ -38,5 +39,6 @@ PARAMS = {
     'window_size':10,
     'n_signal':10,
     'positive_sig_percent':0.8
+
 }
 ```
