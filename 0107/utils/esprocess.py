@@ -55,9 +55,9 @@ class EventStudy:
         
         uq_tick = self.original_df['股號'].unique()
         
-        print('\n')
-        print('Processing Create events : ')
-        for tick in tqdm(uq_tick,  desc="Looping ticks", leave=False):
+        # print('\n')
+        # print('Processing Create events : ')
+        for tick in tqdm(uq_tick,  desc="Looping ticks to create evnets", leave=False):
             df_tick = self.original_df[self.original_df['股號']==tick].reset_index(drop=True)
             
             # Define your events here ###################
@@ -114,47 +114,47 @@ class EventStudy:
         return self.final_res
         
         
-    def perform_es_worker(self, tick, stock_filter_list, event_window, estimation_size, buffer_size):
-        if tick in stock_filter_list:
-            try:
-                es.Single.import_returns(path=f'../1230/df/returns_{tick}.csv', date_format='%Y-%m-%d')
-                es.Single.import_FamaFrench(path=f'../1230/df/fama_{tick}.csv', date_format='%Y-%m-%d')
-                for ed in self.tick_event_dict[tick]:
-                    # Define your Model Here ###################
-                    event = es.Single.FamaFrench_3factor(
-                        security_ticker=str(tick),
-                        event_date=np.datetime64(str(ed)),
-                        event_window=event_window,
-                        estimation_size=estimation_size,  # 注意這個
-                        buffer_size=buffer_size,
-                        keep_model=False
-                    )
-                    #############################################
-                    tick_res = es_res_tick_process(event=event, ed=ed, tick=tick)
-                    self.final_res = pd.concat([self.final_res, tick_res], ignore_index=True)
+    # def perform_es_worker(self, tick, stock_filter_list, event_window, estimation_size, buffer_size):
+    #     if tick in stock_filter_list:
+    #         try:
+    #             es.Single.import_returns(path=f'../1230/df/returns_{tick}.csv', date_format='%Y-%m-%d')
+    #             es.Single.import_FamaFrench(path=f'../1230/df/fama_{tick}.csv', date_format='%Y-%m-%d')
+    #             for ed in self.tick_event_dict[tick]:
+    #                 # Define your Model Here ###################
+    #                 event = es.Single.FamaFrench_3factor(
+    #                     security_ticker=str(tick),
+    #                     event_date=np.datetime64(str(ed)),
+    #                     event_window=event_window,
+    #                     estimation_size=estimation_size,  # 注意這個
+    #                     buffer_size=buffer_size,
+    #                     keep_model=False
+    #                 )
+    #                 #############################################
+    #                 tick_res = es_res_tick_process(event=event, ed=ed, tick=tick)
+    #                 self.final_res = pd.concat([self.final_res, tick_res], ignore_index=True)
 
-            except Exception as e:
-                print(f"Error processing {tick} - {ed}: {e}")
+    #         except Exception as e:
+    #             print(f"Error processing {tick} - {ed}: {e}")
 
 
 
-    def perform_es_thread(self, stock_filter_list=[], event_window=(0, +10), estimation_size=30, buffer_size=30):
-        print('\n')
-        print('Processing Perform ES : ')
-        err = []
+    # def perform_es_thread(self, stock_filter_list=[], event_window=(0, +10), estimation_size=30, buffer_size=30):
+    #     print('\n')
+    #     print('Processing Perform ES : ')
+    #     err = []
 
-        with concurrent.futures.ThreadPoolExecutor() as executor:
-            futures = [executor.submit(self.perform_es_worker, tick, stock_filter_list, event_window, estimation_size, buffer_size)
-                    for tick in self.tick_event_dict]
+    #     with concurrent.futures.ThreadPoolExecutor() as executor:
+    #         futures = [executor.submit(self.perform_es_worker, tick, stock_filter_list, event_window, estimation_size, buffer_size)
+    #                 for tick in self.tick_event_dict]
 
-            for future in concurrent.futures.as_completed(futures):
-                try:
-                    future.result()
-                except Exception as e:
-                    print(f"Error in thread: {e}")
-                    err.append(str(e))
+    #         for future in concurrent.futures.as_completed(futures):
+    #             try:
+    #                 future.result()
+    #             except Exception as e:
+    #                 print(f"Error in thread: {e}")
+    #                 err.append(str(e))
 
-        return self.final_res
+    #     return self.final_res
 
 
 
