@@ -15,4 +15,5 @@ if __name__ == "__main__":
     res = st_engine.perform_stat_test()
     res = stprocess.StatWindow.convert_res2_pandas(res)
     res_analysis = stprocess.StatWindow.result_analysis(res)
+    
     print(res_analysis)
